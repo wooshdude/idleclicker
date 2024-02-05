@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="LootBox" load_steps=3 format=3 uid="uid://dopuo5kxeyeux"]
+
+[ext_resource type="Texture2D" uid="uid://duk16u3rnxpje" path="res://icon.svg" id="1_k5a62"]
+[ext_resource type="Script" path="res://Entities/LootBox/LootBoxResource.gd" id="1_v50lt"]
+
+[resource]
+script = ExtResource("1_v50lt")
+name = "peepee"
+cost = 25
+icon = ExtResource("1_k5a62")
