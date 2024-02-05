@@ -171,5 +171,6 @@ text = "Exit
 
 [connection signal="pressed" from="SettingsButton" to="." method="_on_settings_button_pressed"]
 [connection signal="pressed" from="StoreButton" to="." method="_on_store_button_pressed"]
+[connection signal="visibility_changed" from="Store" to="Store" method="_on_visibility_changed"]
 [connection signal="visibility_changed" from="Store/ScrollContainer/MarginContainer/VBoxContainer" to="Store" method="_on_v_box_container_visibility_changed"]
 [connection signal="pressed" from="Store/ExitButton" to="." method="_on_exit_button_pressed"]
